@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MyShop Landing Page</title>
+
+<!-- Body Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+}
+
+/* Header */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 50px;
+    background:#111;
+    color:white;
+}
+
+/* Algerian style logo */
+header h2{
+    font-family:Algerian, "Copperplate", fantasy;
+    font-size:28px;
+    letter-spacing:2px;
+}
+
+nav a{
+    color:white;
+    margin-left:25px;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
+nav a:hover{
+    color:#ff6ec7;
+}
+
+/* Hero Section */
+.hero{
+    height:90vh;
+    background:linear-gradient(to right,#1d3557,#457b9d,#a8dadc);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+/* Algerian heading */
+.hero h1{
+    font-family:Algerian, "Copperplate", fantasy;
+    font-size:60px;
+    margin-bottom:12px;
+    color:light pink;
+    text-shadow:3px 3px 10px rgba(0,0,0,0.5);
+    letter-spacing:2px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:30px;
+    font-weight:300;
+}
+
+/* Button */
+.btn{
+    padding:14px 32px;
+    background:linear-gradient(to right,#ff6ec78a,#7773f5a8);
+    color:white;
+    border:none;
+    border-radius:30px;
+    font-size:17px;
+    cursor:pointer;
+    text-decoration:none;
+    box-shadow:0 6px 15px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+/* Features Section */
+.features{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:60px 20px;
+    background:#f4f4f4;
+    flex-wrap:wrap;
+}
+
+.feature-box{
+    background:white;
+    padding:30px;
+    width:260px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+.feature-box:hover{
+    transform:translateY(-6px);
+}
+
+.feature-box h3{
+    font-family:Algerian, "Copperplate", fantasy;
+    color:#7b1fa2;
+    letter-spacing:1px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:18px;
+    background:#111;
+    color:white;
+    font-size:14px;
+    letter-spacing:0.5px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>MyShop</h2>
+<nav>
+<a href="#">Home</a>
+<a href="file:///C:/Users/Dhanya/Desktop/cloud%20computing/products/product.html">Products</a>
+<a href="file:///C:/Users/Dhanya/Desktop/cloud%20computing/products/contact/contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Welcome to MyShop</h1>
+<p>Your one-stop destination for trendy products</p>
+<a href="file:///C:/Users/Dhanya/Desktop/cloud%20computing/select3/select.html" class="btn">Start Shopping</a>
+</section>
+
+<section class="features">
+<div class="feature-box">
+<h3>Fast Delivery</h3>
+<p>Quick and reliable shipping across the country.</p>
+</div>
+
+<div class="feature-box">
+<h3>Secure Payments</h3>
+<p>Multiple payment options with safe checkout.</p>
+</div>
+
+<div class="feature-box">
+<h3>Best Quality</h3>
+<p>Carefully selected products for top performance.</p>
+</div>
+</section>
+
+<footer>
+<p>© MyShop. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
